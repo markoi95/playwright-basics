@@ -18,7 +18,7 @@ test.describe("Describe block for hooks", async () => {
     //create context which can be different for every test
     context = await browser.newContext();
 
-    //create new page
+    //create new page with the browser settings from the context
     page = await browser.newPage();
 
     //navigate to test URL
